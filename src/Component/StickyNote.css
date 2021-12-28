@@ -1,0 +1,71 @@
+.sidebar {
+  flex: 1.9;
+  background-color: #dabdb3;
+  min-height: 80vh;
+  height: 100%;
+}
+.main {
+  flex: 8.1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+}
+.form {
+  display: flex;
+  padding: 30px;
+  border-bottom: 2px solid silver;
+}
+.view-area {
+  margin: auto;
+}
+.view-area .sticky-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  margin-top: 50px;
+  padding: 0 20px;
+  display: flex;
+  color: aliceblue;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: start;
+  min-height: 380px;
+  width: 300px;
+  border-radius: 9px;
+}
+.form .sticky-card h1 {
+  border-bottom: 2px solid gray;
+}
+
+.btn-sticky,
+.sticky-textarea,
+.sticky-input {
+  padding: 0 9px;
+  margin-right: 99px;
+}
+.sticky-textarea,
+.sticky-input {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 2px solid;
+  border-color: aqua;
+  background-color: inherit;
+}
+table tr {
+  width: 100%;
+  display: "flex";
+  justify-content: "space-between";
+}
+.btn-sticky {
+  box-shadow: -2px 7px 35px -1px rgba(232, 101, 101, 0.56);
+  -webkit-box-shadow: -2px 7px 35px -1px rgba(232, 101, 101, 0.56);
+  -moz-box-shadow: -2px 7px 35px -1px rgba(232, 101, 101, 0.56);
+  color: white;
+  letter-spacing: 1px;
+  background-color: mediumorchid;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}

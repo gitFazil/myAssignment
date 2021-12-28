@@ -1,0 +1,57 @@
+.blog-container {
+  display: flex;
+  height: 25%;
+  align-items: flex-start;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 20px;
+  display: flex;
+  list-style: none;
+  padding: 9px;
+  align-self: center;
+}
+.card2{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 90%;
+  
+  margin-bottom: 20px;
+  display: flex;
+  list-style: none;
+  padding: 9px;
+  align-self: center;
+}
+.form {
+  position: relative;
+  left: 5px;
+  top: -50%;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+h5 > i {
+  color: rgb(29, 141, 185);
+}
+h3 > span {
+  color: #e44c4c96;
+}
+button {
+  background-color: rosybrown;
+  border-color: rosybrown;
+  outline:none;
+  border-radius: 5px;
+  border: none;
+  font-weight: 600;
+}
+
